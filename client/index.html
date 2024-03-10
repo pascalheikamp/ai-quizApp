@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="./main.js" type="module"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<section class="navigation-bar">
+    <nav class="navigation-section">
+        <div class="wrapper">
+            <ul class="navigation-content">
+                <li class="navigation-item"></li>
+                <li class="navigation-item"><a href={'/'}>Home</a></li>
+                <li class="navigation-item"><a href={'/overview'}>Create your own quiz</a></li>
+                <li class="navigation-item">AI quiz examples</li>
+                <li class="navigation-item">Category</li>
+            </ul>
+        </div>
+    </nav>
+</section>
+<header>
+
+</header>
+<section class="ai-quizsection">
+    <div class="content-wrapper">
+        <div class="ai-inputcontainer">
+            <form action="" id="ai-form">
+            <h2>Input:</h2>
+            <span>
+                 <label>Category</label>
+                <input id="category" class="input-text" type="text">
+            </span>
+        </div>
+
+    </div>
+    <button type="submit" class="generate-button">Generate quiz</button>
+    </form>
+</section>
+<section class="generatedquiz-section">
+        <div class="container">
+            <section id="info-section" class="info-section">
+                <div class="test-container">
+                <section id="answer-section" class="answer-container"></section>
+                </div>
+            </section>
+        </div>
+</section>
+
+</body>
+</html>
